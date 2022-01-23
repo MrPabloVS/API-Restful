@@ -7,10 +7,10 @@
     <title>Formulario de ingreso de productos</title>
 </head>
 <body>
-    <form action="">
-        <input type="text">
-        <input type="text">
-        <input type="text">
+    <form action="/uploadfile" enctype="multipart/form-data" method="POST">
+        <input type="file" name="inputProducto">
+        <input type="submit" value="Upload a product">
+        
     </form>
 </body>
 </html>
